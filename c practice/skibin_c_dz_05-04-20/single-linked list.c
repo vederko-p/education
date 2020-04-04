@@ -51,28 +51,17 @@ int del_end_el(island *beg, int n){
     else
         free(beg);
         return 0;
+
 }
 
 
 void del_all_lst(island *beg){
-    if(beg->next){
-        del_all_lst(beg->next);
-        free(beg);
-    }
-    else
-        free(beg);
+    beg->next ? del_all_lst(beg->next), free(beg): free(beg);
 }
 
 
 int search(island *beg, int v, int i){
-    if(beg->value != v){
-        if(beg->next)
-            search(beg->next, v, i+1);
-        else
-            return 0;
-    }
-    else
-        return i+1;
+    return beg->value != v ? beg->next ? search(beg->next, v, i+1) : 0 : i+1;
 };
 
 
@@ -131,7 +120,7 @@ int gui(){
         /* 2: list manipulations */
         case 2:
             printf("1: add an element to end of list\n");
-            printf("2: delete an end element of list\n");
+            printf("2: delete the last element of the list\n");
             printf("3: find an element\n");
             printf("4: show the list\n");
             printf("5: delete the list\n");
