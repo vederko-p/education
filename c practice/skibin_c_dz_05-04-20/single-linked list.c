@@ -51,7 +51,6 @@ int del_end_el(island *beg, int n){
     else
         free(beg);
         return 0;
-
 }
 
 
