@@ -14,7 +14,7 @@ int len(char *s){
 }
 
 
-int double_str(char *s){
+char * double_str(char *s){
 
     char *k;
     int l = len(s);
