@@ -21,7 +21,7 @@ Here are just a few of the things that ProbStat does well:
 
 
 # 3. Where to get it?
-The source code is currently hosted on GitHub, click [here](https://i.imgur.com/ySQck1T.png)
+The source code is currently hosted on GitHub, click [here](https://github.com/vederko-p/education/tree/master/c%20modules)
 
 
 
@@ -34,7 +34,7 @@ import probstat
 ```
 # 5. Authors
 Anfisa Lepekhina | anfisa_lepekhina5@mail.ru
-Maxim Skibin | photon200iq@gmail.com
+Maxim Skibin | skibin-mvp@mail.ru
 ![](https://i.imgur.com/pfQXNos.png)
 
 
