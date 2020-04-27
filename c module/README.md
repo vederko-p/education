@@ -21,7 +21,7 @@ Here are just a few of the things that ProbStat does well:
 
 
 # 3. Where to get it?
-The source code is currently hosted on GitHub, click [here](https://github.com/vederko-p/education/tree/master/c%20modules)
+The source code is currently hosted on GitHub, click [here](https://github.com/vederko-p/education/tree/master/c%20module)
 
 
 
